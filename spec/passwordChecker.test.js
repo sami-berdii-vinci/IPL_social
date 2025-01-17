@@ -13,5 +13,9 @@ describe('isValid should return true if the password is valid', () => {
         expect(result).toBe(true);
     });
 
+    it('isValid should return false if the password does not contain a special character', () => {
+        const result = isValid("azertyuiop");
+        expect(result).toBe(false);
+    });
     
 })

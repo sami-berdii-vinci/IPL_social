@@ -1,4 +1,7 @@
 function isValid(password){
+    if (!/[!@#$%^&*(),.?":{}|<>]/.test(password)) {
+        return false;
+    }
     return checkPasswordLength(password);
 }
 
