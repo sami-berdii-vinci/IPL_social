@@ -17,5 +17,10 @@ describe('isValid should return true if the password is valid', () => {
         const result = isValid("azertyuiop");
         expect(result).toBe(false);
     });
+
+    it('isValid should return false if the password does not contain a number', () => {
+        const result = isValid("azertyuiop");
+        expect(result).toBe(false);
+    });
     
 })

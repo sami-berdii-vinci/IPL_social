@@ -1,5 +1,5 @@
 function isValid(password){
-    
+    if(!/[0-9]/.test(password)) return false;
     return checkPasswordLength(password) 
     && checkSpecialCharacters(password);
 }
