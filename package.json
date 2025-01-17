@@ -1,0 +1,14 @@
+{
+  "name": "ipl_social",
+  "version": "1.0.0",
+  "description": "Name : Berdii Sami",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jasmine": "^5.5.0"
+  }
+}
