@@ -1,8 +1,8 @@
 function isValid(password){
-    
+    if(/ipl/i.test(password)) return false; 
     return checkPasswordLength(password) 
     && checkSpecialCharacters(password)
-    && checkNumbers;
+    && checkNumbers(password);
 }
 
 function checkPasswordLength(password){

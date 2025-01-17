@@ -22,5 +22,10 @@ describe('isValid should return true if the password is valid', () => {
         const result = isValid("azertyuiop");
         expect(result).toBe(false);
     });
+
+    it('isValid should return false if the password contains IPL', () => {
+        const result = isValid("azertyIPL");
+        expect(result).toBe(false);
+    });
     
 })
